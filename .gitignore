@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / editor
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Local source PDFs / extracted working files
+# Keep the frozen structured dataset in Git, but do not commit raw policy PDFs.
+data/raw_pdfs/
+data/extracted/
+
+# Model / vector / evaluation artifacts (Parts 2–4)
+PolicyLens_deberta_dataset_*/
+deberta-v3-*/
+PolicyLens_bge_m3_index/
+PolicyLens_evaluation_*/
+checkpoints/
+runs/
+*.faiss
+*.npy
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Logs / caches
+*.log
+*.tmp
+*.temp
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
