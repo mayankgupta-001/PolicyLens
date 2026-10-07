@@ -6,8 +6,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from src.ingestion.pdf_extractor import extract_pdf
-from src.ingestion.table_extractor import extract_tables
+from part1_preprocessing.src.ingestion.pdf_extractor import extract_pdf
+from part1_preprocessing.src.ingestion.table_extractor import extract_tables
 
 
 def main() -> None:
