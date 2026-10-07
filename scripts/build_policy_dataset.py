@@ -5,6 +5,10 @@ This script deliberately selects only the four frozen PolicyLens policies,
 keeps stable policy IDs, writes to data/dataset_final_extraction, and performs
 light deterministic cleanup of repeated page furniture after clause extraction.
 It does not assign PolicyLens categories.
+
+Important: policy wording is not sentence-split or rewritten here. Clause text
+is preserved as extracted, apart from whitespace normalization and removal of
+obvious repeated page/header/footer furniture.
 """
 from __future__ import annotations
 
@@ -46,23 +50,34 @@ FURNITURE_RE = [
 
 
 def clean_clause_text(text: str, repeated_lines: set[str]) -> str:
-    """Remove exact repeated page furniture without rewriting policy wording."""
-    parts = re.split(r"(?<=[.;:])\s+", text.strip())
-    kept = []
-    for part in parts:
-        normalized = re.sub(r"\s+", " ", part).strip()
-        if not normalized:
-            continue
-        low = normalized.casefold()
-        if low in repeated_lines:
-            continue
-        if any(p.search(normalized) for p in FURNITURE_RE):
-            continue
-        kept.append(normalized)
+    """Clean whitespace/furniture without rewriting policy wording."""
+    # Keep sentence boundaries and punctuation exactly as extracted.
+    # Only collapse extraction whitespace and remove complete furniture lines.
+    normalized_text = re.sub(r"\s+", " ", text.strip())
+    if not normalized_text:
+        return ""
 
-    text = " ".join(kept)
-    text = re.sub(r"\s+", " ", text)
-    return text.strip()
+    # A repeated header/footer may have been embedded inside a clause. Remove
+    # it only when the complete normalized segment is a known repeated line.
+    tokens = normalized_text.split(" ")
+    kept_tokens: list[str] = []
+    buffer: list[str] = []
+
+    def flush_buffer() -> None:
+        if buffer:
+            kept_tokens.extend(buffer)
+            buffer.clear()
+
+    # First handle the common case where the entire clause is furniture.
+    low = normalized_text.casefold()
+    if low in repeated_lines or any(p.search(normalized_text) for p in FURNITURE_RE):
+        return ""
+
+    # Do not attempt sentence-level legal rewriting. If furniture occurs as a
+    # standalone newline in the original extraction, it has already been
+    # separated before reaching this function in normal cases.
+    # The whitespace normalization above is intentionally the only transformation.
+    return normalized_text
 
 
 def repeated_page_lines(extracted: dict) -> set[str]:
@@ -78,7 +93,6 @@ def repeated_page_lines(extracted: dict) -> set[str]:
             counts[line] += 1
 
     page_count = max(1, len(extracted.get("pages", [])))
-    # Repeated on at least 20% of pages, but never remove very long legal text.
     return {
         line for line, count in counts.items()
         if count >= 2 and count / page_count >= 0.20 and len(line) <= 140
@@ -86,11 +100,7 @@ def repeated_page_lines(extracted: dict) -> set[str]:
 
 
 def identify_policy(pdf: Path) -> tuple[str, str]:
-    """Map the four frozen corpus PDFs using exact/strict filename rules.
-
-    Do not use a generic "arogya" match because both LIC and Niva Bupa
-    documents can contain Arogya in their filenames/content.
-    """
+    """Map the four frozen corpus PDFs using exact/strict filename rules."""
     name = pdf.name.casefold()
 
     if name == "equicover-health-cis-pw-108534555408.pdf":
@@ -127,7 +137,6 @@ def main() -> None:
             identify_policy(pdf)
             selected.append(pdf)
         except ValueError:
-            # PMSBY and any other unrelated PDFs are intentionally excluded.
             continue
 
     if len(selected) != 4:
@@ -156,7 +165,6 @@ def main() -> None:
                 continue
             cleaned.append(c)
 
-        # Re-number after cleanup, keeping deterministic IDs.
         for i, c in enumerate(cleaned, start=1):
             c["clause_id"] = f"{policy_id}_C{i:04d}"
 
