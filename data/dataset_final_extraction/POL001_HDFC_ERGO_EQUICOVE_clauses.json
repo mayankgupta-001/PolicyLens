@@ -1,6 +1,7 @@
 {
   "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
   "source_file": "HDFC_ERGO_EquiCover.pdf",
+  "source_pdf": "equicover-health-cis-pw-108534555408.pdf",
   "page_count": 31,
   "clauses": [
     {
@@ -75,7 +76,21 @@
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 1,
       "page_end": 1,
-      "section": "4. Chronic Neurological conditions",
+      "section": "1. Preamble",
+      "subsection": null,
+      "marker": "4.",
+      "clause_text": "Chronic Neurological conditions",
+      "source_lines": [
+        "Chronic Neurological conditions"
+      ],
+      "category": null
+    },
+    {
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0006",
+      "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
+      "page_start": 1,
+      "page_end": 1,
+      "section": "1. Preamble",
       "subsection": null,
       "marker": "5.",
       "clause_text": "Leprosy Cured persons",
@@ -85,11 +100,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0006",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0007",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 1,
       "page_end": 1,
-      "section": "4. Chronic Neurological conditions",
+      "section": "1. Preamble",
       "subsection": null,
       "marker": "6.",
       "clause_text": "Specific Learning Disabilities",
@@ -99,11 +114,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0007",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0008",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 1,
       "page_end": 1,
-      "section": "4. Chronic Neurological conditions",
+      "section": "1. Preamble",
       "subsection": null,
       "marker": "7.",
       "clause_text": "Hearing Impairment (deaf and hard of hearing)",
@@ -114,11 +129,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0008",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0009",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 1,
       "page_end": 1,
-      "section": "4. Chronic Neurological conditions",
+      "section": "1. Preamble",
       "subsection": null,
       "marker": "8.",
       "clause_text": "Multiple Sclerosis",
@@ -128,11 +143,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0009",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0010",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 1,
       "page_end": 1,
-      "section": "4. Chronic Neurological conditions",
+      "section": "1. Preamble",
       "subsection": null,
       "marker": "9.",
       "clause_text": "Locomotor Disability",
@@ -142,11 +157,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0010",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0011",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 1,
       "page_end": 1,
-      "section": "4. Chronic Neurological conditions",
+      "section": "1. Preamble",
       "subsection": null,
       "marker": "10.",
       "clause_text": "Speech and Language disability",
@@ -156,11 +171,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0011",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0012",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 1,
       "page_end": 1,
-      "section": "4. Chronic Neurological conditions",
+      "section": "1. Preamble",
       "subsection": null,
       "marker": "11.",
       "clause_text": "Dwarfism",
@@ -170,11 +185,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0012",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0013",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 1,
       "page_end": 1,
-      "section": "4. Chronic Neurological conditions",
+      "section": "1. Preamble",
       "subsection": null,
       "marker": "12.",
       "clause_text": "Thalassemia",
@@ -184,11 +199,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0013",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0014",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 1,
       "page_end": 1,
-      "section": "4. Chronic Neurological conditions",
+      "section": "1. Preamble",
       "subsection": null,
       "marker": "13.",
       "clause_text": "Intellectual Disability",
@@ -198,11 +213,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0014",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0015",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 1,
       "page_end": 1,
-      "section": "4. Chronic Neurological conditions",
+      "section": "1. Preamble",
       "subsection": null,
       "marker": "14.",
       "clause_text": "Haemophilia",
@@ -212,11 +227,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0015",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0016",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 1,
       "page_end": 1,
-      "section": "4. Chronic Neurological conditions",
+      "section": "1. Preamble",
       "subsection": null,
       "marker": "15.",
       "clause_text": "Mental Illness",
@@ -226,11 +241,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0016",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0017",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 1,
       "page_end": 1,
-      "section": "4. Chronic Neurological conditions",
+      "section": "1. Preamble",
       "subsection": null,
       "marker": "16.",
       "clause_text": "Sickle Cell disease",
@@ -240,11 +255,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0017",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0018",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 1,
       "page_end": 1,
-      "section": "4. Chronic Neurological conditions",
+      "section": "1. Preamble",
       "subsection": null,
       "marker": "17.",
       "clause_text": "Autism spectrum disorder",
@@ -254,11 +269,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0018",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0019",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 1,
       "page_end": 1,
-      "section": "4. Chronic Neurological conditions",
+      "section": "1. Preamble",
       "subsection": null,
       "marker": "18.",
       "clause_text": "Multiple Disabilities including deaf/ blindness",
@@ -268,11 +283,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0019",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0020",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 1,
       "page_end": 1,
-      "section": "4. Chronic Neurological conditions",
+      "section": "1. Preamble",
       "subsection": null,
       "marker": "19.",
       "clause_text": "Cerebral Palsy",
@@ -282,11 +297,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0020",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0021",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 1,
       "page_end": 1,
-      "section": "4. Chronic Neurological conditions",
+      "section": "1. Preamble",
       "subsection": null,
       "marker": "20.",
       "clause_text": "Acid Attack victim",
@@ -296,11 +311,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0021",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0022",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 1,
       "page_end": 1,
-      "section": "4. Chronic Neurological conditions",
+      "section": "1. Preamble",
       "subsection": null,
       "marker": "21.",
       "clause_text": "Parkinson's disease",
@@ -310,11 +325,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0022",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0023",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 1,
       "page_end": 1,
-      "section": "4. Chronic Neurological conditions",
+      "section": "1. Preamble",
       "subsection": null,
       "marker": "a)",
       "clause_text": "It is Condition Precedent that this cover can be availed only on mandatory submission of Disability certificate issued by the Medical Board appointed by the government for certifying Disability.",
@@ -326,11 +341,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0023",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0024",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 1,
       "page_end": 2,
-      "section": "4. Chronic Neurological conditions",
+      "section": "1. Preamble",
       "subsection": null,
       "marker": "b)",
       "clause_text": "Disability for the purpose of this policy means a person with not less than forty percent of a specified disability as per the Act, where, specified disability has not been defined in measurable terms and includes an Insured Person with disability where specified disability has been defined in measurable terms, as Certified by the Medical Board appointed by the government for certifying Disability. Or/ and B. Individuals with HIV/AIDS as defined under the Human Immunodeficiency Virus and Acquired Immune Deficiency Syndrome (Prevention and Control) Act, 2017. HDFC ERGO General Insurance Company Limited Policy Wording HDFC ERGO EquiCover Health HDFC ERGO General Insurance Company Limited. IRDAI Reg. No.146 CIN: U66030MH2007PLC177117. Registered & Corporate Office: 6th Floor, Leela Business Park, Andheri-Kurla Road, Andheri (East), Mumbai – 400 059. UIN: HDFC ERGO EquiCover Health - HDFHLIP23192V012223",
@@ -354,16 +369,15 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0024",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0025",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 2,
       "page_end": 2,
-      "section": "4. Chronic Neurological conditions",
+      "section": "2. Operating Clause",
       "subsection": null,
-      "marker": "2.",
-      "clause_text": "Operating Clause If during the Policy Period the Insured Person is required to be Hospitalized for treatment of an Illness or Injury at a Hospital/ Day Care Centre, following Medical Advice of a duly qualified Medical Practitioner, the Company shall indemnify Medical Expenses necessarily incurred towards the Covers in force under the Policy, as specified in the Policy Schedule. Provided further that, any amount payable under the Policy shall be subject to the terms of coverage (including co-pay, sub limits), exclusions, conditions and definitions contained herein. Maximum liability of the Company under all such Claims paid under indemnity, during each Policy Year shall be the Sum Insured opted and specified in the Schedule.",
+      "marker": null,
+      "clause_text": "If during the Policy Period the Insured Person is required to be Hospitalized for treatment of an Illness or Injury at a Hospital/ Day Care Centre, following Medical Advice of a duly qualified Medical Practitioner, the Company shall indemnify Medical Expenses necessarily incurred towards the Covers in force under the Policy, as specified in the Policy Schedule. Provided further that, any amount payable under the Policy shall be subject to the terms of coverage (including co-pay, sub limits), exclusions, conditions and definitions contained herein. Maximum liability of the Company under all such Claims paid under indemnity, during each Policy Year shall be the Sum Insured opted and specified in the Schedule.",
       "source_lines": [
-        "Operating Clause",
         "If during the Policy Period the Insured Person is required to be Hospitalized for treatment of an",
         "Illness or Injury at a Hospital/ Day Care Centre, following Medical Advice of a duly qualified Medical",
         "Practitioner, the Company shall indemnify Medical Expenses necessarily incurred towards the",
@@ -376,16 +390,15 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0025",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0026",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 2,
       "page_end": 2,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": null,
-      "marker": "3.",
-      "clause_text": "Definitions The terms defined below and at other junctures in the Policy have the meanings ascribed to them wherever they appear in this Policy and, where, the context so requires, references to the singular include references to the plural; references to the male includes the female and other gender and references to any statutory enactment includes subsequent changes to the same 3.1 Standard Definitions Def 1. Accident means sudden, unforeseen, and involuntary event caused by external, visible, and violent means. Def 2. Any one Illness means continuous period of illness and includes relapse within 45 days from·the date of last consultation with the Hospital / Nursing Home where treatment was taken. Def 3. AYUSH Treatment refers to the medical and/or hospitalisation treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy systems. Def 4. AYUSH Hospital means an AYUSH Hospital is a healthcare facility wherein medical / surgicaI / para surgical treatment procedures and interventions are carried out by AYUSH Medical",
+      "marker": null,
+      "clause_text": "The terms defined below and at other junctures in the Policy have the meanings ascribed to them wherever they appear in this Policy and, where, the context so requires, references to the singular include references to the plural; references to the male includes the female and other gender and references to any statutory enactment includes subsequent changes to the same 3.1 Standard Definitions Def 1. Accident means sudden, unforeseen, and involuntary event caused by external, visible, and violent means. Def 2. Any one Illness means continuous period of illness and includes relapse within 45 days from·the date of last consultation with the Hospital / Nursing Home where treatment was taken. Def 3. AYUSH Treatment refers to the medical and/or hospitalisation treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy systems. Def 4. AYUSH Hospital means an AYUSH Hospital is a healthcare facility wherein medical / surgicaI / para surgical treatment procedures and interventions are carried out by AYUSH Medical",
       "source_lines": [
-        "Definitions",
         "The terms defined below and at other junctures in the Policy have the meanings ascribed to them",
         "wherever they appear in this Policy and, where, the context so requires, references to the singular",
         "include references to the plural; references to the male includes the female and other gender and",
@@ -408,11 +421,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0026",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0027",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 2,
       "page_end": 2,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "i.",
       "clause_text": "Central or State Government AYUSH Hospital; or",
@@ -422,11 +435,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0027",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0028",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 2,
       "page_end": 2,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "ii.",
       "clause_text": "Teaching hospital attached to AYUSH College recognized by the Central Government /Central Council of Indian Medicine/ Central Council for Homeopathy; or",
@@ -437,11 +450,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0028",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0029",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 2,
       "page_end": 2,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "iii.",
       "clause_text": "AYUSH Hospital, standalone or co-located with in-patient healthcare facility of any recognized system of medicine, registered with the local authorities, wherever applicable, and is under the supervision of a qualified registered AYUSH Medical Practitioner and must comply with all the following criterion:",
@@ -454,11 +467,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0029",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0030",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 2,
       "page_end": 2,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "a.",
       "clause_text": "Having at least 5 in-patient beds.",
@@ -468,11 +481,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0030",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0031",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 2,
       "page_end": 2,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "b.",
       "clause_text": "Having qualified AYUSH Medical Practitioner in charge round the clock;",
@@ -482,11 +495,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0031",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0032",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 2,
       "page_end": 2,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "c.",
       "clause_text": "Having dedicated AYUSH therapy sections as required and I or has equipped operation theatre where surgical procedures are to be carried out;",
@@ -497,11 +510,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0032",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0033",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 2,
       "page_end": 3,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "d.",
       "clause_text": "Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. Def 5. AYUSH Day Care Centre means and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polyclinic or any such health centre which is registered with the local authorities, wherever applicable and having facilities for carrying out treatment procedures and medical or surgical / para-surgical interventions or both under the supervision of registered /. HDFC ERGO General Insurance Company Limited Policy Wording HDFC ERGO EquiCover Health HDFC ERGO General Insurance Company Limited. IRDAI Reg. No.146 CIN: U66030MH2007PLC177117. Registered & Corporate Office: 6th Floor, Leela Business Park, Andheri-Kurla Road, Andheri (East), Mumbai – 400 059. UIN: HDFC ERGO EquiCover Health - HDFHLIP23192V012223 3 AYUSH Medical Practitioner(s) on day care basis without in-patient services and must comply with all the following criterion:",
@@ -526,11 +539,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0033",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0034",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 3,
       "page_end": 3,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "a.",
       "clause_text": "Having qualified registered AYUSH Medical Practitioner in charge round the clock;",
@@ -540,11 +553,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0034",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0035",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 3,
       "page_end": 3,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "b.",
       "clause_text": "Having dedicated AYUSH therapy sections as required and/or has equipped operation theatre where surgical procedures are to be carried out;",
@@ -555,11 +568,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0035",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0036",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 3,
       "page_end": 3,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "c.",
       "clause_text": "Maintaining daily records of the patients and making them accessible to the insurance company's authorized representative. Def 6. Break in Policy means the period of gap that occurs at the end of the existing policy term/installment premium due date, when the premium due for renewal on a given policy or installment premium due is not paid on or before the premium renewal date or grace period. Def 7. Cashless Facility means a facility extended by the insurer to the insured where the payments, of the costs of treatment undergone by the insured in accordance with the policy terms and conditions, are directly made to the Network Provider by the insurer to the extent pre-authorization is approved. Def 8. Condition Precedent means a policy term or condition upon which the Insurer's liability under the policy is conditional upon. Def 9. Congenital Anomaly refers to a condition(s) which is present since birth, and which is abnormal with reference to form, structure, or position.",
@@ -585,11 +598,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0036",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0037",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 3,
       "page_end": 3,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "i.",
       "clause_text": "Internal Congenital Anomaly- Congenital Anomaly which is not in the visible and accessible parts of the body.",
@@ -600,11 +613,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0037",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0038",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 3,
       "page_end": 3,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "ii.",
       "clause_text": "External Congenital Anomaly- Congenital Anomaly which is in the visible and accessible parts of the body Def 10. Co-payment means a cost sharing requirement under a health insurance policy that provides that the policyholder/insured will bear a specified percentage of the admissible claims amount. A co-payment does not reduce the Sum Insured. Def 11. Day Care Centre means any institution established for day care treatment of illness and/or injuries or a medical setup with a hospital and which has been registered with the local authorities, wherever applicable, and is under supervision of a registered and qualified medical practitioner and must comply with all minimum criterion as under:",
@@ -622,11 +635,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0038",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0039",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 3,
       "page_end": 3,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "a.",
       "clause_text": "has qualified nursing staff under its employment.",
@@ -636,11 +649,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0039",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0040",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 3,
       "page_end": 3,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "b.",
       "clause_text": "has qualified medical practitioner/s in charge.",
@@ -650,11 +663,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0040",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0041",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 3,
       "page_end": 3,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "c.",
       "clause_text": "has fully equipped operation theatre of its own where surgical procedures are carried out maintains daily records of patients and will make these accessible to the insurance company's authorized personnel Def 12. Day Care Treatment means medical treatment, and/or surgical procedure which is",
@@ -667,11 +680,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0041",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0042",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 3,
       "page_end": 3,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "i.",
       "clause_text": "Undertaken under General or Local Anesthesia in a hospital/day care center in less than 24 hours because of technological advancement, and",
@@ -682,11 +695,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0042",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0043",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 3,
       "page_end": 4,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "ii.",
       "clause_text": "which would have otherwise required hospitalization of more than 24 hours. Treatment normally taken on an out-patient basis is not included in the scope of this definition. Def 13. Dental Treatment means a treatment related to teeth or structures supporting teeth including examinations, fillings (where appropriate), crowns, extractions and surgery. Def 14. Disclosure of information norm means the policy shall be void and all premium paid hereon shall be forfeited to the Company in the event of misrepresentation, mis-description or non- HDFC ERGO General Insurance Company Limited Policy Wording HDFC ERGO EquiCover Health HDFC ERGO General Insurance Company Limited. IRDAI Reg. No.146 CIN: U66030MH2007PLC177117. Registered & Corporate Office: 6th Floor, Leela Business Park, Andheri-Kurla Road, Andheri (East), Mumbai – 400 059. UIN: HDFC ERGO EquiCover Health - HDFHLIP23192V012223 4 disclosure of any material fact. Def 15. Emergency Care means management for an illness or injury which results in symptoms which occur suddenly and unexpectedly, and requires immediate care by a medical practitioner to prevent death or serious long term impairment of the insured person’s health. Def 16. Grace Period means the specified period of time, immediately following the premium due date during which premium payment can be made to renew or continue a policy in force without loss of continuity benefits pertaining to waiting periods and coverage of pre-existing diseases. Coverage need not be available during the period for which no premium is received. The grace period for payment of the premium for all types of insurance policies shall be: fifteen days where premium payment mode is monthly and thirty days in all other cases. Provided the insurers shall offer coverage during the grace period, if the premium is paid in instalments during the policy period (Note: In case of non-instalment premium payment, coverage shall not be available for the period for which no premium is received). Def 17. Hospital means any institution established for in-patient care and day care treatment ofIllness and/or injuries and which has been registered as a hospital with the local authorities under the Clinical Establishments (Registration and Regulation) Act 2010 or under the enactments specified under the Schedule of Section 56(1) of the said act Or complies with all minimum criteria as under:",
@@ -724,11 +737,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0043",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0044",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 4,
       "page_end": 4,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "i)",
       "clause_text": "has qualified nursing staff under its employment round the clock;",
@@ -738,11 +751,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0044",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0045",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 4,
       "page_end": 4,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "ii)",
       "clause_text": "has at least 10 in-patient beds in towns having a population of less than 10,00,000 and at least 15 in-patient beds in all other places;",
@@ -753,11 +766,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0045",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0046",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 4,
       "page_end": 4,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "iii)",
       "clause_text": "has qualified medical practitioner(",
@@ -767,11 +780,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0046",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0047",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 4,
       "page_end": 4,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "s)",
       "clause_text": "in charge round the clock;",
@@ -781,11 +794,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0047",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0048",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 4,
       "page_end": 4,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "iv)",
       "clause_text": "has a fully equipped operation theatre of its own where surgical procedures are carried out;",
@@ -795,11 +808,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0048",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0049",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 4,
       "page_end": 4,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "v)",
       "clause_text": "maintains daily records of patients and make these accessible to the insurance company’s authorized personnel; Def 18. Hospitalization means admission in a Hospital for a minimum period of 24consecutive ‘In-patient Care’ hours except for specified procedures/treatments, where such admission could be for a period of less than 24 consecutive hours. Def 19. Illness means a sickness or a disease or pathological condition leading to the impairment of normal physiological function and requires medical treatment. (a) Acute condition –Acute condition means is a disease, illness or injury that is likely to respond quickly to treatment which aims to return the person to his or her state of health immediately before suffering the disease/illness/injury which leads to full recovery (b) Chronic condition –A chronic condition is defined as a disease, illness, or injury that has one or more of the following characteristics:",
@@ -820,11 +833,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0049",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0050",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 4,
       "page_end": 4,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "1.",
       "clause_text": "it needs ongoing or long-term monitoring through consultations, examinations, checkups, and /or tests",
@@ -834,11 +847,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0050",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0051",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 4,
       "page_end": 4,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "2.",
       "clause_text": "it needs ongoing or long-term control or relief of symptoms",
@@ -848,11 +861,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0051",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0052",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 4,
       "page_end": 4,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "3.",
       "clause_text": "it requires rehabilitation for the patient or for the patient to be specially trained to cope with it",
@@ -863,11 +876,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0052",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0053",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 4,
       "page_end": 4,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "4.",
       "clause_text": "it continues indefinitely",
@@ -877,11 +890,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0053",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0054",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 4,
       "page_end": 5,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "5.",
       "clause_text": "it recurs or is likely to recur Def 20. Injury means accidental physical bodily harm excluding illness or disease solely and directly caused by external, violent and visible and evident means which is verified and certified by a Medical Practitioner. HDFC ERGO General Insurance Company Limited Policy Wording HDFC ERGO EquiCover Health HDFC ERGO General Insurance Company Limited. IRDAI Reg. No.146 CIN: U66030MH2007PLC177117. Registered & Corporate Office: 6th Floor, Leela Business Park, Andheri-Kurla Road, Andheri (East), Mumbai – 400 059. UIN: HDFC ERGO EquiCover Health - HDFHLIP23192V012223 5 Def 21. Inpatient Care means treatment for which the insured person has to stay in a hospital for more than 24 hours for a covered event. Def",
@@ -903,11 +916,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0054",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0055",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 5,
       "page_end": 5,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "22.",
       "clause_text": "Insured Person means person(",
@@ -917,11 +930,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0055",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0056",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 5,
       "page_end": 5,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "s)",
       "clause_text": "named in the schedule of the Policy. Def 23. Intensive Care Unit means an identified section, ward or wing of a hospital which is under the constant supervision of a dedicated medical practitioner(s), and which is specially equipped for the continuous monitoring and treatment of patients who are in a critical condition, or require life support facilities and where the level of care and supervision is considerably more sophisticated and intensive than in the ordinary and other wards. Def 24. ICU (Intensive Care Unit) Charges means the amount charged by a Hospital towards ICU expenses which shall include the expenses for ICU bed, general medical support services provided to any ICU patient including monitoring devices, critical care nursing and intensivist charges Def 25. Medical Advice means any consultation or advice from a Medical Practitioner including the issuance of any prescription or follow-up prescription. Def 26. Medical Expenses means those expenses that an Insured Person has necessarily and actually incurred for medical treatment on account of Illness or Accident on the advice of a Medical Practitioner, as long as these are no more than would have been payable if the Insured Person had not been insured and no more than other hospitals or doctors in the same locality would have charged for the same medical treatment. Def 27. Medical Practitioner means a person who holds a valid registration from the Medical Council of any State or Medical Council of India or Council for Indian Medicine or for Homeopathy set up by the Government of India or a State Government and is thereby entitled to practice medicine within its jurisdiction; and is acting within the scope and jurisdiction of license.Medical Practitioner who is sharing the same residence as the Insured Person and is a Family Member of the Insured Person are not considered as Medical Practitioner under the scope of this Policy. Def 28. Medically Necessary Treatment means any treatment, test, medication, or stay in hospital or part of stay in hospital which:",
@@ -954,11 +967,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0056",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0057",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 5,
       "page_end": 5,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "i)",
       "clause_text": "is required for the medical management of the illness or injury suffered by the insured;",
@@ -968,11 +981,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0057",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0058",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 5,
       "page_end": 5,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "ii)",
       "clause_text": "must not exceed the level of care necessary to provide safe, adequate and appropriate medical care in scope, duration or intensity;",
@@ -983,11 +996,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0058",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0059",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 5,
       "page_end": 5,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "iii)",
       "clause_text": "must have been prescribed by a medical practitioner;",
@@ -997,11 +1010,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0059",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0060",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 5,
       "page_end": 6,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "iv)",
       "clause_text": "must conform to the professional standards widely accepted in international medical practice or by the medical community in India. Def 29. Migration means a facility provided to policyholders (including all members under family cover and group policies), to transfer the credits gained for pre-existing diseases and specific waiting periods from one health insurance policy to another with the same insurer. Def 30. Network Provider means hospitals or health care providers enlisted by an insurer, TPA or jointly by an Insurer and TPA to provide medical services to an insured by a cashless facility. Def 31. New born Baby means baby born during the Policy Period and is aged up to 90 days. Def 32. Non-Network Provider means any hospital, day care centre or other provider that is not part of the network. Def 33. Notification of Claim means the process of intimating a claim to the insurer or TPA through any of the recognized modes of communication. Def 34. OPD Treatment means the one in which the Insured visits a clinic / hospital or associated facility like a consultation room for diagnosis and treatment based on the advice of a Medical Practitioner. HDFC ERGO General Insurance Company Limited Policy Wording HDFC ERGO EquiCover Health HDFC ERGO General Insurance Company Limited. IRDAI Reg. No.146 CIN: U66030MH2007PLC177117. Registered & Corporate Office: 6th Floor, Leela Business Park, Andheri-Kurla Road, Andheri (East), Mumbai – 400 059. UIN: HDFC ERGO EquiCover Health - HDFHLIP23192V012223 6 The Insured is not admitted as a day care patient or in-patient. Def 35. Portability means a facility provided to the health insurance policyholders (including all members under family cover), to transfer the credits gained for, pre-existing diseases and specific waiting periods from one insurer to another insurer. Def 36. Pre-Existing Disease means any condition, ailment, injury or disease:",
@@ -1035,11 +1048,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0060",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0061",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 6,
       "page_end": 6,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "a)",
       "clause_text": "that is/are diagnosed by a physician not more than 36 months prior to the date of commencement of the policy issued by the insurer; or",
@@ -1050,11 +1063,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0061",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0062",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 6,
       "page_end": 6,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "b)",
       "clause_text": "for which medical advice or treatment was recommended by, or received from, a physician, not more than 36 months prior to the date of commencement of the policy. Def 37. Pre-hospitalization Medical Expenses means Medical Expenses incurred during pre-defined number of days preceding the hospitalization of the Insured Person, provided that:",
@@ -1067,11 +1080,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0062",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0063",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 6,
       "page_end": 6,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "i.",
       "clause_text": "Such Medical Expenses are incurred for the same condition for which the Insured Person’s Hospitalization was required, and",
@@ -1082,11 +1095,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0063",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0064",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 6,
       "page_end": 6,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "ii.",
       "clause_text": "The In-patient Hospitalization claim for such Hospitalization is admissible by the Insurance Company. Def 38. Post-hospitalization Medical Expenses means Medical Expenses incurred during pre-defined number of days immediately after the insured person is discharged from the hospital provided that:",
@@ -1100,11 +1113,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0064",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0065",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 6,
       "page_end": 6,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "i.",
       "clause_text": "Such Medical Expenses are for the same condition for which the insured person’s hospitalization was required, and",
@@ -1115,11 +1128,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0065",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0066",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 6,
       "page_end": 6,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "ii.",
       "clause_text": "The inpatient hospitalization claim for such hospitalization is admissible by the insurance company. Def 39. Qualified Nurse means a person who holds a valid registration from the Nursing Council of India or the Nursing Council of any state in India. Def 40. Reasonable and Customary Charges means the charges for services or supplies, which are the standard charges for a specific provider and consistent with the prevailing charges in the geographical area for identical or similar services, taking into account the nature of illness/ injury involved. Def 41. Renewal means the terms on which the contract of insurance can be renewed on mutual consent with a provision of grace period for treating the renewal continuous for the purpose of gaining credit for pre-existing diseases, time-bound exclusions and for all waiting periods. Def 42. Room Rent means the amount charged by a Hospital towards Room and Boarding expenses and shall include the associated medical expenses. Def",
@@ -1142,11 +1155,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0066",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0067",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 6,
       "page_end": 6,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "43.",
       "clause_text": "Surgery or Surgical Procedure means manual and / or operative procedure (",
@@ -1156,11 +1169,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0067",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0068",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 6,
       "page_end": 7,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "s)",
       "clause_text": "required for treatment of an illness or injury, correction of deformities and defects, diagnosis and cure of diseases, relief from suffering and prolongation of life, performed in a hospital or day care centre by a medical practitioner. Def 44. Unproven/Experimental Treatment means the treatment including drug experimental therapy which is based on established medical practice in India, is a treatment experimental or unproven. 3.2 Specific Definitions Def 1. Adventurous/Hazardous Sports means any sport or activity involving physical exertion and HDFC ERGO General Insurance Company Limited Policy Wording HDFC ERGO EquiCover Health HDFC ERGO General Insurance Company Limited. IRDAI Reg. No.146 CIN: U66030MH2007PLC177117. Registered & Corporate Office: 6th Floor, Leela Business Park, Andheri-Kurla Road, Andheri (East), Mumbai – 400 059. UIN: HDFC ERGO EquiCover Health - HDFHLIP23192V012223 7 skill in which an Insured Person participates or competes for entertainment or as part of his profession whether he/she ist rained or not. Def 2. Age means completed years on last birthday as on Commencement Date. Def 3. Ambulance means a motor vehicle operated by a licensed/authorized service provider and equipped for the transport and paramedical treatment of the person requiring medical attention. Def 4. Antiretroviral therapy (ART) is treatment of people infected with human immunodeficiency virus (HIV) using anti-HIV drugs. Def 5. Associated Medical Expenses means those expenses that an Insured Person has necessarily and actually incurred for medical treatment on account of Illness or Accident on the advice of a Medical Practitioner. In case of copayment associated with room rent higher than the entitled room rent limit. Associated Medical Expenses will not include:",
@@ -1200,11 +1213,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0068",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0069",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 7,
       "page_end": 7,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "i.",
       "clause_text": "Cost of pharmacy and consumables.",
@@ -1214,11 +1227,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0069",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0070",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 7,
       "page_end": 7,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "ii.",
       "clause_text": "Cost of implants and medical devices",
@@ -1228,11 +1241,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0070",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0071",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 7,
       "page_end": 9,
-      "section": "4. Chronic Neurological conditions",
+      "section": "3. Definitions",
       "subsection": "Practitioner(s) comprising of any of the following",
       "marker": "iii.",
       "clause_text": "Cost of diagnostics Def 6. Alternative /AYUSH Treatment refers to hospitalization treatments given under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy systems. Def 7. Biological Attack or Weapons means thee mission, discharge, dispersal, release or escape of any pathogenic (disease producing) micro-organisms and/or biologically produced toxins (including genetically modified organisms and chemically synthesized toxins) which are capable of causing any Illness, incapacitating disablement or death. Def 8. Chemical attack or weapons means the emission, discharge, dispersal, release or escape of any solid, liquid or gaseous chemical compound which,when suitably distributed, is capable of causing any lllness, incapacitating disablement or death. Def 9. Claims means a demand made by the Policyholder/Insured Person or on his behalf, for payment of Medical Expenses under any other Benefit, as covered under the Policy. Def 10. Commencement Date means the date of inception of first policy with Us as specified in the Policy Schedule. Def 11. Company means HDFC ERGO General Insurance Company Def 12. CD4 cells are a type of white blood cells, also called as CD4 T lymphocytes or 'helper T cells' which serve as primary receptor for HIV. Def 13. Diagnostic Centre means a place where diagnostic tests and exploratory or therapeutic procedures required for the detection, identification and treatment of a medical condition are done. Def 14. Person with Disability/Disability/Disabled means a person with long term physical, mental, intellectual or sensory impairment which, in interaction with barriers, hinders his full and effective participation in society equally with others. Def 15. HIV means Human Immunodeficiency Virus Def 16. lnsured Person/You/Your means the person named in the Policy Schedule who is insured under the Policy and is citizen of India, in respect of whom the applicable premium has been received by the Company. Def 17. Life-threatening emergency shall mean a serious medical condition or symptom, which arises suddenly and unexpectedly, and requires immediate care and treatment by a Medical Practitioner, generally received within 24 hours of onset to avoid jeopardy to life or serious long term impairment of the Insured Person's health, until stabilization at which time this medical condition or symptom is not considered an Emergency anymore. HDFC ERGO General Insurance Company Limited Policy Wording HDFC ERGO EquiCover Health HDFC ERGO General Insurance Company Limited. IRDAI Reg. No.146 CIN: U66030MH2007PLC177117. Registered & Corporate Office: 6th Floor, Leela Business Park, Andheri-Kurla Road, Andheri (East), Mumbai – 400 059. UIN: HDFC ERGO EquiCover Health - HDFHLIP23192V012223 8 Def 18. Material Facts means all relevant information sought by the Company in the Proposal Form and other connected documents to enable it to take informed decision in the context of underwriting the risk Def 19. Non-instalment Premium Payment refers to payment of premium for the entire policy period made in advance as a single premium. Def 20. Mental Illness means a substantial disorder of thinking, mood, perception, orientation or memory that grossly impairs judgment, behaviour, capacity to recognise reality or ability to meet the ordinary demands of life, mental conditions associated with the abuse of alcohol and drugs but does not include mental retardation which is a condition of arrested or incomplete development of mind of a person, specially characterised by sub normality of intelligence. Def 21. Medical practitioner for treatment of mental illnesses means a medical practitioner possessing a post-graduate degree or diploma in psychiatry awarded by an university recognized by the University Grants Commission established under the University Grants Commission Act, 1956, or awarded or recognized by the National Board of Examinations and included in the First Schedule to the Indian Medical Council Act, 1956, or recognized by the Medical Council of India, constituted under the Indian Medical Council Act, 1956, and includes, in relation to any State, any medical officer who having regard to his knowledge and experience in psychiatry, has been declared by the Government of that State to be a psychiatrist for the purposes of this Act Def 22. Mental Health Establishment means any health establishment, including Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homoeopathy establishment, by whatever name called, either wholly or partly, meant for the care of persons with mental Illness, established, owned, controlled or maintained by the appropriate Government, local authority, trust, whether private or public. corporation, co-operative society, organisation or any other entity or person, where persons with mental Illness are admitted and reside at. or kept in, for care, treatment, convalescence and rehabilitation, either temporarily or otherwise; and includes any general Hospital or general nursing home established or maintained by the appropriate Government, local authority, trust, whether private or public, corporation, co-operative society, organisation or any other entity or person; but does not include a family residential place where a person with mental Illness resides with his relatives or friends; Def 23. Policy means these Policy wordings, the Policy Schedule and any applicable endorsements or extensions attaching to or forming part thereof, as amended from time to time, and shall be read together. The Policy contains details of the extent of cover available to the lnsured Person, applicable exclusions. and the terms & conditions applicable under the Policy. Def 24. Policy Period means the Commencement Date and either the Expiry Date specified in the policy schedule or the date of cancellation of this Policy, whichever is earlier Def 25. Policyholder means the entity or person named as such in the Schedule. Def 26. Policy Schedule means the Policy Schedule attached to and forming part of this Policy specifying the details of the Insured Persons, the Sum Insured, the Policy Period and the Sub-limits to which benefits under the Policy are subject to, including any annexures and/or endorsements. Made to or on it from time to time, and if more than one, then the latest in time. Def 27. Policy Year means a period of twelve months beginning from the Commencement Date and ending on the last day of such twelve-month period. For the purpose of subsequent years, Policy Year shall mean a period of twelve months commencing from the end of the previous Policy Year and lapsing on the last day of such twelve-month period, till the Expiry Date, as specified in the Policy Schedule Def 28. Proposal Form means a form to be filled in by the Prospect in written or electronic or any other format as approved by the Authority, for furnishing all material information as required by the HDFC ERGO General Insurance Company Limited Policy Wording HDFC ERGO EquiCover Health HDFC ERGO General Insurance Company Limited. IRDAI Reg. No.146 CIN: U66030MH2007PLC177117. Registered & Corporate Office: 6th Floor, Leela Business Park, Andheri-Kurla Road, Andheri (East), Mumbai – 400 059. UIN: HDFC ERGO EquiCover Health - HDFHLIP23192V012223 9 insurer in respect of a risk, in order to enable the insurer to take informed decision in the context of underwriting the risk, and in the event of acceptance of the risk, to determine the rates, advantages, terms and conditions of the cover to be granted Def 29. Sub-limit means a cost sharing requirement under a health insurance policy in which an insurer would not be liable defined limit. The Sub-limit as applicable under the Schedule against the relevant Cover in force under the Policy. Def 30. Sum Insured means the pre-defined limit specified in the Policy Schedule and represents the maximum, total and cumulative liability for any and all claims made under the Policy in respect of each insured person as mentioned in the Policy Schedule. Def 31. Waiting Period means a period from the inception of this Policy during which specified diseases/treatments are not covered. On completion of the Waiting Period, diseases/ treatments shall be covered provided the Policy has been continuously renewed without any break Def 32. We/Our/Us/Company means the HDFC ERGO General Insurance Company Base Cover Hospitalization Cover",
@@ -1356,11 +1369,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0071",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0072",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 9,
       "page_end": 9,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Inpatient Care",
       "marker": null,
       "clause_text": "The Company shall indemnify medical expenses incurred for Hospitalization of the Insured Person during the Policy Year, up to the Sum insured as specified in the Policy Schedule (other than any sub-limits, co-pay as specified in the policy), for:",
@@ -1372,11 +1385,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0072",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0073",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 9,
       "page_end": 9,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Inpatient Care",
       "marker": "i.",
       "clause_text": "Room Rent, Boarding, Nursing Expenses as provided by the Hospital / Nursing Home up to maximum of 1% of the Sum Insured per day.",
@@ -1387,11 +1400,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0073",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0074",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 9,
       "page_end": 9,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Inpatient Care",
       "marker": "ii.",
       "clause_text": "Intensive Care Unit (ICU) / Intensive Cardiac Care Unit (ICCU) expenses up maximum of 2% of Sum Insured per day.",
@@ -1402,11 +1415,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0074",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0075",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 9,
       "page_end": 9,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Inpatient Care",
       "marker": "iii.",
       "clause_text": "Surgeon, Anesthetist, Medical Practitioner, Consultants, Specialist Fees whether paid directly to the treating Medical Practitioner/ surgeon or to the hospital",
@@ -1417,11 +1430,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0075",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0076",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 9,
       "page_end": 9,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Inpatient Care",
       "marker": "iv.",
       "clause_text": "Anaesthesia, blood, oxygen, operation theatre charges, surgical appliances, medicines and drugs, costs towards diagnostics, diagnostic imaging modalities and such similar other expenses. Other expenses",
@@ -1434,11 +1447,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0076",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0077",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 9,
       "page_end": 9,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Inpatient Care",
       "marker": "i.",
       "clause_text": "Expenses incurred on treatment of cataract subject to the sub limits.",
@@ -1448,11 +1461,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0077",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0078",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 9,
       "page_end": 9,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Inpatient Care",
       "marker": "ii.",
       "clause_text": "Dental treatment necessitated due to disease or injury (for inpatient care only).",
@@ -1462,11 +1475,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0078",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0079",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 9,
       "page_end": 9,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Inpatient Care",
       "marker": "iii.",
       "clause_text": "Plastic surgery necessitated due to disease or injury.",
@@ -1476,11 +1489,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0079",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0080",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 9,
       "page_end": 9,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Inpatient Care",
       "marker": "iv.",
       "clause_text": "All day care treatments",
@@ -1490,11 +1503,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0080",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0081",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 9,
       "page_end": 9,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Note",
       "marker": "1.",
       "clause_text": "Expenses of Hospitalization for a minimum period of 24 consecutive hours only shall be admissible. However, the time limit shall not apply in respect of Day Care Treatment",
@@ -1505,11 +1518,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0081",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0082",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 9,
       "page_end": 10,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Note",
       "marker": "2.",
       "clause_text": "The above-mentioned Medical Expenses shall be payable only after the first commencement of the Policy with the Company 4.2 AYUSH Treatment HDFC ERGO General Insurance Company Limited Policy Wording HDFC ERGO EquiCover Health HDFC ERGO General Insurance Company Limited. IRDAI Reg. No.146 CIN: U66030MH2007PLC177117. Registered & Corporate Office: 6th Floor, Leela Business Park, Andheri-Kurla Road, Andheri (East), Mumbai – 400 059. UIN: HDFC ERGO EquiCover Health - HDFHLIP23192V012223 10 Expenses incurred for inpatient care treatment under Ayurveda, Yoga and Naturopathy, Unani, Siddha and Homeopathy systems of medicines are covered up to 100% of sum insured, during each policy year as specified in the policy schedule. 4.3",
@@ -1532,11 +1545,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0082",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0083",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 10,
       "page_end": 10,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Pre-Hospitalization Medical Expenses",
       "marker": null,
       "clause_text": "The Company shall indemnify Pre-Hospitalization Medical Expenses incurred, related to an admissible Hospitalization requiring Inpatient care, for a fixed period of 30 days prior to the date of admissible Hospitalization covered under the Policy during the policy period.",
@@ -1548,11 +1561,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0083",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0084",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 10,
       "page_end": 10,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Conditions",
       "marker": "i.",
       "clause_text": "The claim is accepted under Section 4.1 (Inpatient Care) or Section 4.2(AYUSH Treatment) or Section 4.7 (Modern Treatments) in respect of that Insured Person.",
@@ -1563,11 +1576,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0084",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0085",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 10,
       "page_end": 10,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Conditions",
       "marker": "ii.",
       "clause_text": "Pre-hospitalization Medical Expenses can be claimed under this Section on a Reimbursement basis only. 4.4",
@@ -1579,11 +1592,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0085",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0086",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 10,
       "page_end": 10,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Post-Hospitalization Medical Expenses",
       "marker": null,
       "clause_text": "The Company shall indemnify Post Hospitalization Medical Expenses incurred, related to an admissible Hospitalization requiring Inpatient Care, for a fixed period of 60 days from the date of discharge from the Hospital, following an admissible hospitalization covered under the Policy during the policy period.",
@@ -1596,11 +1609,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0086",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0087",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 10,
       "page_end": 10,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Conditions",
       "marker": "i.",
       "clause_text": "The claim is accepted under Section 4.1 (Inpatient Care) or Section 4.2(AYUSH Treatment) or Section 4.7 (Modern Treatments) in respect of that Insured Person.",
@@ -1611,11 +1624,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0087",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0088",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 10,
       "page_end": 10,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Conditions",
       "marker": "ii.",
       "clause_text": "Post-hospitalization Medical Expenses can be claimed under this Section on a Reimbursement basis only. 4.5 Emergency Ground Ambulance The Company will reimburse Reasonable and Customary Charges for expenses incurred towards ambulance charges for transportation of an Insured person, per hospitalization as per the limit mentioned in Policy 1 Schedule.",
@@ -1631,11 +1644,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0088",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0089",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 10,
       "page_end": 10,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Specific Conditions",
       "marker": null,
       "clause_text": "The Company will reimburse payments under this Benefit provided that.",
@@ -1645,11 +1658,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0089",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0090",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 10,
       "page_end": 10,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Specific Conditions",
       "marker": "i.",
       "clause_text": "The medical condition of the Insured Person requires immediate ambulance services from the place where the Insured Person is Injured or is suffering from an Illness to a Hospital where appropriate medical treatment can be obtained or from the existing Hospital to another Hospital as advised by the treating Medical Practitioner in writing for management of the current Hospitalization.",
@@ -1663,11 +1676,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0090",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0091",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 10,
       "page_end": 10,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Specific Conditions",
       "marker": "ii.",
       "clause_text": "Expenses incurred on road Ambulance subject to a maximum of Rs.2000/- per hospitalisation.",
@@ -1677,11 +1690,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0091",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0092",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 10,
       "page_end": 10,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Specific Conditions",
       "marker": "iii.",
       "clause_text": "The ambulance service is offered by a healthcare or Registered Ambulance Service Provider.",
@@ -1691,11 +1704,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0092",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0093",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 10,
       "page_end": 10,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Specific Conditions",
       "marker": "iv.",
       "clause_text": "The original Ambulance bills and payment receipt is submitted to the Company.",
@@ -1705,11 +1718,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0093",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0094",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 10,
       "page_end": 10,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Specific Conditions",
       "marker": "v.",
       "clause_text": "The Company has accepted a claim under Section 4.1 (Inpatient Care) above in respect of the same period of Hospitalization or Section 4.2(AYUSH Treatment) or Section 4.7 (Modern Treatments).",
@@ -1721,11 +1734,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0094",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0095",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 10,
       "page_end": 11,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Specific Conditions",
       "marker": "vi.",
       "clause_text": "Any payment under this Benefit will be excluded if the Insured Person is transferred to any Hospital or diagnostic center for evaluation purposes only 4.6 Cataract Treatment HDFC ERGO General Insurance Company Limited Policy Wording HDFC ERGO EquiCover Health HDFC ERGO General Insurance Company Limited. IRDAI Reg. No.146 CIN: U66030MH2007PLC177117. Registered & Corporate Office: 6th Floor, Leela Business Park, Andheri-Kurla Road, Andheri (East), Mumbai – 400 059. UIN: HDFC ERGO EquiCover Health - HDFHLIP23192V012223 11 The company shall indemnify medical expenses incurred for treatment of Cataract, subject to a limit of Rs.40,000/-, per each eye in one policy year. 4.7",
@@ -1747,11 +1760,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0095",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0096",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 11,
       "page_end": 11,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Modern Treatment",
       "marker": null,
       "clause_text": "The following procedures will be covered (wherever medically indicated) either as In patient or as part of Day Care Treatment in a Hospital up to 50% of Sum Insured, specified in the Policy Schedule, during the Policy Period.",
@@ -1763,11 +1776,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0096",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0097",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 11,
       "page_end": 11,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Modern Treatment",
       "marker": "a.",
       "clause_text": "Uterine Artery Embolization and HIFU (High intensity focused ultrasound)",
@@ -1777,11 +1790,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0097",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0098",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 11,
       "page_end": 11,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Modern Treatment",
       "marker": "b.",
       "clause_text": "Balloon Sinuplasty",
@@ -1791,11 +1804,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0098",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0099",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 11,
       "page_end": 11,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Modern Treatment",
       "marker": "c.",
       "clause_text": "Deep Brain stimulation",
@@ -1805,11 +1818,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0099",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0100",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 11,
       "page_end": 11,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Modern Treatment",
       "marker": "d.",
       "clause_text": "Oral chemotherapy",
@@ -1819,11 +1832,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0100",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0101",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 11,
       "page_end": 11,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Modern Treatment",
       "marker": "e.",
       "clause_text": "lmmunotherapy- Monoclonal Antibody to be given as injection.",
@@ -1833,11 +1846,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0101",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0102",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 11,
       "page_end": 11,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Modern Treatment",
       "marker": "f.",
       "clause_text": "Intra Vitreal injections",
@@ -1847,11 +1860,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0102",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0103",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 11,
       "page_end": 11,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Modern Treatment",
       "marker": "g.",
       "clause_text": "Robotic surgeries",
@@ -1861,11 +1874,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0103",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0104",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 11,
       "page_end": 11,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Modern Treatment",
       "marker": "h.",
       "clause_text": "Stereotactic radio Surgeries",
@@ -1875,11 +1888,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0104",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0105",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 11,
       "page_end": 11,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Modern Treatment",
       "marker": "i.",
       "clause_text": "Bronchial Thermoplasty",
@@ -1889,11 +1902,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0105",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0106",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 11,
       "page_end": 11,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Modern Treatment",
       "marker": "j.",
       "clause_text": "Vaporisation of the prostrate (Green laser treatment or holmium laser treatment)",
@@ -1903,11 +1916,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0106",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0107",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 11,
       "page_end": 11,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Modern Treatment",
       "marker": "k.",
       "clause_text": "IONM- (Intra Operative Neuro Monitoring)",
@@ -1917,11 +1930,11 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0107",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0108",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 11,
       "page_end": 11,
-      "section": "4. Chronic Neurological conditions",
+      "section": "4. Coverage",
       "subsection": "Modern Treatment",
       "marker": "l.",
       "clause_text": "Stem cell therapy: Hematopoietic stem cells for bone marrow transplant for haematological conditions to be covered.",
@@ -1932,7 +1945,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0108",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0109",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 11,
       "page_end": 11,
@@ -1951,7 +1964,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0109",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0110",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 11,
       "page_end": 11,
@@ -1965,7 +1978,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0110",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0111",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 11,
       "page_end": 11,
@@ -1982,7 +1995,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0111",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0112",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 11,
       "page_end": 11,
@@ -1997,7 +2010,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0112",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0113",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 11,
       "page_end": 11,
@@ -2013,7 +2026,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0113",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0114",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 11,
       "page_end": 11,
@@ -2029,7 +2042,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0114",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0115",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 11,
       "page_end": 11,
@@ -2043,7 +2056,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0115",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0116",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 11,
       "page_end": 12,
@@ -2065,7 +2078,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0116",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0117",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 12,
@@ -2080,7 +2093,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0117",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0118",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 12,
@@ -2095,7 +2108,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0118",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0119",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 12,
@@ -2109,7 +2122,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0119",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0120",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 12,
@@ -2126,7 +2139,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0120",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0121",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 12,
@@ -2141,7 +2154,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0121",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0122",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 12,
@@ -2155,7 +2168,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0122",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0123",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 12,
@@ -2170,7 +2183,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0123",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0124",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 12,
@@ -2187,7 +2200,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0124",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0125",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 12,
@@ -2201,7 +2214,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0125",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0126",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 12,
@@ -2215,7 +2228,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0126",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0127",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 12,
@@ -2229,7 +2242,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0127",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0128",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 12,
@@ -2243,7 +2256,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0128",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0129",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 12,
@@ -2257,7 +2270,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0129",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0130",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 12,
@@ -2271,7 +2284,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0130",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0131",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 12,
@@ -2286,7 +2299,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0131",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0132",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 12,
@@ -2300,7 +2313,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0132",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0133",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 12,
@@ -2314,7 +2327,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0133",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0134",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 12,
@@ -2328,7 +2341,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0134",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0135",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 12,
@@ -2342,7 +2355,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0135",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0136",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 12,
@@ -2356,7 +2369,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0136",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0137",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 12,
@@ -2370,7 +2383,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0137",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0138",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 12,
@@ -2384,7 +2397,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0138",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0139",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 12,
@@ -2398,7 +2411,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0139",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0140",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 12,
@@ -2412,7 +2425,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0140",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0141",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 12,
@@ -2426,7 +2439,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0141",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0142",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 12,
       "page_end": 13,
@@ -2447,7 +2460,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0142",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0143",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 13,
       "page_end": 13,
@@ -2464,7 +2477,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0143",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0144",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 13,
       "page_end": 13,
@@ -2479,7 +2492,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0144",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0145",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 13,
       "page_end": 13,
@@ -2495,7 +2508,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0145",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0146",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 13,
       "page_end": 13,
@@ -2512,7 +2525,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0146",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0147",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 13,
       "page_end": 13,
@@ -2526,7 +2539,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0147",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0148",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 13,
       "page_end": 13,
@@ -2540,7 +2553,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0148",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0149",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 13,
       "page_end": 13,
@@ -2555,7 +2568,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0149",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0150",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 13,
       "page_end": 13,
@@ -2570,7 +2583,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0150",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0151",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 13,
       "page_end": 13,
@@ -2586,7 +2599,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0151",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0152",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 13,
       "page_end": 13,
@@ -2602,7 +2615,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0152",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0153",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 13,
       "page_end": 13,
@@ -2617,7 +2630,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0153",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0154",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 13,
       "page_end": 13,
@@ -2633,7 +2646,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0154",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0155",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 13,
       "page_end": 13,
@@ -2647,7 +2660,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0155",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0156",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 13,
       "page_end": 13,
@@ -2661,7 +2674,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0156",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0157",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 13,
       "page_end": 13,
@@ -2675,7 +2688,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0157",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0158",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 13,
       "page_end": 13,
@@ -2689,7 +2702,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0158",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0159",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 13,
       "page_end": 13,
@@ -2703,7 +2716,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0159",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0160",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 13,
       "page_end": 14,
@@ -2724,7 +2737,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0160",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0161",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 14,
       "page_end": 14,
@@ -2738,7 +2751,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0161",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0162",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 14,
       "page_end": 14,
@@ -2752,7 +2765,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0162",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0163",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 14,
       "page_end": 14,
@@ -2766,7 +2779,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0163",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0164",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 14,
       "page_end": 14,
@@ -2780,7 +2793,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0164",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0165",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 14,
       "page_end": 14,
@@ -2796,7 +2809,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0165",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0166",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 14,
       "page_end": 14,
@@ -2814,7 +2827,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0166",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0167",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 14,
       "page_end": 14,
@@ -2831,7 +2844,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0167",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0168",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 14,
       "page_end": 14,
@@ -2847,7 +2860,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0168",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0169",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 14,
       "page_end": 14,
@@ -2865,7 +2878,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0169",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0170",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 14,
       "page_end": 14,
@@ -2880,7 +2893,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0170",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0171",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 14,
       "page_end": 14,
@@ -2896,7 +2909,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0171",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0172",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 14,
       "page_end": 14,
@@ -2912,7 +2925,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0172",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0173",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 14,
       "page_end": 14,
@@ -2927,7 +2940,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0173",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0174",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 14,
       "page_end": 14,
@@ -2944,7 +2957,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0174",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0175",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 14,
       "page_end": 14,
@@ -2959,7 +2972,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0175",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0176",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 14,
       "page_end": 14,
@@ -2973,7 +2986,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0176",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0177",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 14,
       "page_end": 15,
@@ -2995,7 +3008,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0177",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0178",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 15,
       "page_end": 15,
@@ -3009,7 +3022,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0178",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0179",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 15,
       "page_end": 15,
@@ -3023,7 +3036,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0179",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0180",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 15,
       "page_end": 15,
@@ -3042,7 +3055,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0180",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0181",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 15,
       "page_end": 15,
@@ -3056,7 +3069,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0181",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0182",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 15,
       "page_end": 15,
@@ -3071,7 +3084,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0182",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0183",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 15,
       "page_end": 15,
@@ -3091,7 +3104,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0183",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0184",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 15,
       "page_end": 15,
@@ -3108,7 +3121,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0184",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0185",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 15,
       "page_end": 15,
@@ -3122,7 +3135,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0185",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0186",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 15,
       "page_end": 15,
@@ -3137,7 +3150,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0186",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0187",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 15,
       "page_end": 15,
@@ -3153,7 +3166,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0187",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0188",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 15,
       "page_end": 15,
@@ -3169,7 +3182,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0188",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0189",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 15,
       "page_end": 15,
@@ -3183,7 +3196,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0189",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0190",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 15,
       "page_end": 15,
@@ -3198,7 +3211,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0190",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0191",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 15,
       "page_end": 15,
@@ -3214,7 +3227,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0191",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0192",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 15,
       "page_end": 15,
@@ -3229,7 +3242,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0192",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0193",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 15,
       "page_end": 15,
@@ -3243,7 +3256,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0193",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0194",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 15,
       "page_end": 15,
@@ -3257,7 +3270,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0194",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0195",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 15,
       "page_end": 16,
@@ -3279,7 +3292,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0195",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0196",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 16,
       "page_end": 16,
@@ -3294,7 +3307,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0196",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0197",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 16,
       "page_end": 16,
@@ -3309,7 +3322,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0197",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0198",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 16,
       "page_end": 16,
@@ -3326,7 +3339,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0198",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0199",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 16,
       "page_end": 16,
@@ -3342,7 +3355,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0199",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0200",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 16,
       "page_end": 16,
@@ -3357,7 +3370,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0200",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0201",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 16,
       "page_end": 16,
@@ -3372,7 +3385,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0201",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0202",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 16,
       "page_end": 16,
@@ -3388,7 +3401,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0202",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0203",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 16,
       "page_end": 16,
@@ -3405,7 +3418,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0203",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0204",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 16,
       "page_end": 16,
@@ -3423,7 +3436,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0204",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0205",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 16,
       "page_end": 16,
@@ -3440,7 +3453,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0205",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0206",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 16,
       "page_end": 16,
@@ -3456,7 +3469,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0206",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0207",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 16,
       "page_end": 17,
@@ -3490,7 +3503,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0207",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0208",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 17,
       "page_end": 17,
@@ -3505,7 +3518,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0208",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0209",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 17,
       "page_end": 17,
@@ -3520,7 +3533,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0209",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0210",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 17,
       "page_end": 17,
@@ -3534,7 +3547,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0210",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0211",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 17,
       "page_end": 17,
@@ -3552,7 +3565,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0211",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0212",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 17,
       "page_end": 17,
@@ -3571,7 +3584,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0212",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0213",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 17,
       "page_end": 17,
@@ -3588,7 +3601,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0213",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0214",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 17,
       "page_end": 17,
@@ -3604,7 +3617,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0214",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0215",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 17,
       "page_end": 17,
@@ -3621,7 +3634,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0215",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0216",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 17,
       "page_end": 18,
@@ -3646,7 +3659,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0216",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0217",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 18,
       "page_end": 18,
@@ -3662,7 +3675,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0217",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0218",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 18,
       "page_end": 18,
@@ -3678,7 +3691,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0218",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0219",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 18,
       "page_end": 18,
@@ -3693,7 +3706,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0219",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0220",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 18,
       "page_end": 18,
@@ -3711,7 +3724,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0220",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0221",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 18,
       "page_end": 18,
@@ -3727,7 +3740,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0221",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0222",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 18,
       "page_end": 18,
@@ -3743,7 +3756,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0222",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0223",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 18,
       "page_end": 18,
@@ -3758,7 +3771,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0223",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0224",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 18,
       "page_end": 18,
@@ -3775,7 +3788,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0224",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0225",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 18,
       "page_end": 18,
@@ -3790,7 +3803,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0225",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0226",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 18,
       "page_end": 18,
@@ -3804,7 +3817,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0226",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0227",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 18,
       "page_end": 18,
@@ -3820,7 +3833,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0227",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0228",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 18,
       "page_end": 18,
@@ -3835,7 +3848,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0228",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0229",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 18,
       "page_end": 18,
@@ -3850,7 +3863,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0229",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0230",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 18,
       "page_end": 19,
@@ -3873,7 +3886,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0230",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0231",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 19,
       "page_end": 19,
@@ -3887,7 +3900,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0231",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0232",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 19,
       "page_end": 19,
@@ -3903,7 +3916,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0232",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0233",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 19,
       "page_end": 19,
@@ -3918,7 +3931,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0233",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0234",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 19,
       "page_end": 19,
@@ -3932,7 +3945,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0234",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0235",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 19,
       "page_end": 19,
@@ -3947,7 +3960,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0235",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0236",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 19,
       "page_end": 19,
@@ -3967,7 +3980,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0236",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0237",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 19,
       "page_end": 19,
@@ -3983,7 +3996,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0237",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0238",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 19,
       "page_end": 19,
@@ -4002,7 +4015,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0238",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0239",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 19,
       "page_end": 19,
@@ -4017,7 +4030,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0239",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0240",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 19,
       "page_end": 19,
@@ -4033,7 +4046,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0240",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0241",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 19,
       "page_end": 19,
@@ -4048,7 +4061,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0241",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0242",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 19,
       "page_end": 19,
@@ -4063,7 +4076,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0242",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0243",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 19,
       "page_end": 19,
@@ -4080,7 +4093,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0243",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0244",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 20,
       "page_end": 20,
@@ -4106,7 +4119,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0244",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0245",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 20,
       "page_end": 20,
@@ -4123,7 +4136,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0245",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0246",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 20,
       "page_end": 20,
@@ -4137,7 +4150,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0246",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0247",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 20,
       "page_end": 20,
@@ -4154,7 +4167,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0247",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0248",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 20,
       "page_end": 20,
@@ -4171,7 +4184,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0248",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0249",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 20,
       "page_end": 20,
@@ -4215,7 +4228,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0249",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0250",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 20,
       "page_end": 21,
@@ -4246,7 +4259,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0250",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0251",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 21,
       "page_end": 21,
@@ -4260,7 +4273,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0251",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0252",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 21,
       "page_end": 21,
@@ -4283,7 +4296,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0252",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0253",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 21,
       "page_end": 21,
@@ -4299,7 +4312,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0253",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0254",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 21,
       "page_end": 21,
@@ -4315,7 +4328,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0254",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0255",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 21,
       "page_end": 21,
@@ -4332,7 +4345,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0255",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0256",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 21,
       "page_end": 21,
@@ -4350,7 +4363,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0256",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0257",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 21,
       "page_end": 21,
@@ -4364,7 +4377,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0257",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0258",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 21,
       "page_end": 21,
@@ -4379,7 +4392,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0258",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0259",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 21,
       "page_end": 21,
@@ -4394,7 +4407,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0259",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0260",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 21,
       "page_end": 21,
@@ -4409,7 +4422,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0260",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0261",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 21,
       "page_end": 22,
@@ -4433,7 +4446,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0261",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0262",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 22,
       "page_end": 22,
@@ -4450,7 +4463,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0262",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0263",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 22,
       "page_end": 22,
@@ -4469,7 +4482,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0263",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0264",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 22,
       "page_end": 22,
@@ -4489,7 +4502,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0264",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0265",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 22,
       "page_end": 22,
@@ -4507,7 +4520,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0265",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0266",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 22,
       "page_end": 22,
@@ -4523,7 +4536,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0266",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0267",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 22,
       "page_end": 22,
@@ -4539,7 +4552,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0267",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0268",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 22,
       "page_end": 22,
@@ -4554,7 +4567,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0268",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0269",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 22,
       "page_end": 22,
@@ -4569,7 +4582,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0269",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0270",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 22,
       "page_end": 22,
@@ -4585,7 +4598,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0270",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0271",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 22,
       "page_end": 22,
@@ -4600,7 +4613,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0271",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0272",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 22,
       "page_end": 22,
@@ -4615,7 +4628,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0272",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0273",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 22,
       "page_end": 23,
@@ -4638,7 +4651,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0273",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0274",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 23,
       "page_end": 23,
@@ -4656,7 +4669,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0274",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0275",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 23,
       "page_end": 23,
@@ -4673,7 +4686,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0275",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0276",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 23,
       "page_end": 23,
@@ -4691,7 +4704,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0276",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0277",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 23,
       "page_end": 23,
@@ -4706,7 +4719,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0277",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0278",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 23,
       "page_end": 23,
@@ -4724,7 +4737,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0278",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0279",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 23,
       "page_end": 23,
@@ -4738,7 +4751,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0279",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0280",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 23,
       "page_end": 23,
@@ -4752,7 +4765,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0280",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0281",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 23,
       "page_end": 23,
@@ -4766,7 +4779,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0281",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0282",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 23,
       "page_end": 23,
@@ -4780,7 +4793,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0282",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0283",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 23,
       "page_end": 23,
@@ -4794,7 +4807,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0283",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0284",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 23,
       "page_end": 23,
@@ -4808,7 +4821,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0284",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0285",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 23,
       "page_end": 23,
@@ -4823,7 +4836,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0285",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0286",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 23,
       "page_end": 23,
@@ -4837,7 +4850,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0286",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0287",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 23,
       "page_end": 23,
@@ -4851,7 +4864,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0287",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0288",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 23,
       "page_end": 23,
@@ -4866,7 +4879,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0288",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0289",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 23,
       "page_end": 23,
@@ -4880,7 +4893,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0289",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0290",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 23,
       "page_end": 23,
@@ -4895,7 +4908,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0290",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0291",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 23,
       "page_end": 23,
@@ -4909,7 +4922,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0291",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0292",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 23,
       "page_end": 23,
@@ -4923,7 +4936,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0292",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0293",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 23,
       "page_end": 23,
@@ -4938,7 +4951,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0293",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0294",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 23,
       "page_end": 24,
@@ -4961,7 +4974,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0294",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0295",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 24,
       "page_end": 24,
@@ -4976,7 +4989,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0295",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0296",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 24,
       "page_end": 24,
@@ -4991,7 +5004,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0296",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0297",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 24,
       "page_end": 24,
@@ -5005,7 +5018,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0297",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0298",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 24,
       "page_end": 24,
@@ -5019,7 +5032,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0298",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0299",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 24,
       "page_end": 24,
@@ -5033,7 +5046,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0299",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0300",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 24,
       "page_end": 24,
@@ -5047,7 +5060,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0300",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0301",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 24,
       "page_end": 24,
@@ -5061,7 +5074,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0301",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0302",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 24,
       "page_end": 24,
@@ -5076,7 +5089,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0302",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0303",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 24,
       "page_end": 24,
@@ -5106,7 +5119,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0303",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0304",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 24,
       "page_end": 24,
@@ -5120,7 +5133,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0304",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0305",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 24,
       "page_end": 24,
@@ -5138,7 +5151,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0305",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0306",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 24,
       "page_end": 25,
@@ -5173,7 +5186,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0306",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0307",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 25,
       "page_end": 25,
@@ -5202,7 +5215,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0307",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0308",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 25,
       "page_end": 25,
@@ -5248,7 +5261,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0308",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0309",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 25,
       "page_end": 25,
@@ -5263,7 +5276,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0309",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0310",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 25,
       "page_end": 25,
@@ -5281,7 +5294,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0310",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0311",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 25,
       "page_end": 27,
@@ -5388,7 +5401,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0311",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0312",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 27,
       "page_end": 27,
@@ -5412,7 +5425,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0312",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0313",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 27,
       "page_end": 27,
@@ -5445,7 +5458,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0313",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0314",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 27,
       "page_end": 27,
@@ -5467,7 +5480,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0314",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0315",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 27,
       "page_end": 28,
@@ -5515,7 +5528,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0315",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0316",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 28,
       "page_end": 28,
@@ -5534,7 +5547,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0316",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0317",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 28,
       "page_end": 28,
@@ -5578,7 +5591,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0317",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0318",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 28,
       "page_end": 28,
@@ -5594,7 +5607,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0318",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0319",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 28,
       "page_end": 29,
@@ -5632,7 +5645,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0319",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0320",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 29,
       "page_end": 29,
@@ -5647,7 +5660,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0320",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0321",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 29,
       "page_end": 29,
@@ -5705,7 +5718,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0321",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0322",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 29,
       "page_end": 30,
@@ -5796,7 +5809,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0322",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0323",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 30,
       "page_end": 30,
@@ -5812,7 +5825,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0323",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0324",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 30,
       "page_end": 31,
@@ -5868,7 +5881,7 @@
       "category": null
     },
     {
-      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0324",
+      "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0325",
       "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
       "page_start": 31,
       "page_end": 31,

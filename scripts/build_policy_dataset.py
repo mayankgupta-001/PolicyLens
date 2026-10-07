@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
-"""Build a multi-policy clause dataset from PDFs in data/raw_pdfs.
+"""Build the final four-policy Part 1 clause dataset.
 
-Each PDF is processed independently, then clauses are merged into a single
-annotation-ready CSV. Policy-level IDs are used so train/validation/test
-splits can later be performed by policy rather than by individual clause.
+This script deliberately selects only the four frozen PolicyLens policies,
+keeps stable policy IDs, writes to data/dataset_final_extraction, and performs
+light deterministic cleanup of repeated page furniture after clause extraction.
+It does not assign PolicyLens categories.
 """
 from __future__ import annotations
 
@@ -12,6 +13,7 @@ import csv
 import json
 import re
 import sys
+from collections import Counter
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -21,17 +23,97 @@ from src.ingestion.pdf_extractor import extract_pdf
 from src.ingestion.clause_extractor import extract_clauses
 
 
-def slug_policy_id(path: Path, index: int) -> str:
-    stem = re.sub(r"[^A-Za-z0-9]+", "_", path.stem).strip("_").upper()
-    stem = stem[:18] or f"POLICY_{index:03d}"
-    return f"POL{index:03d}_{stem}"
+POLICIES = {
+    "equicover": ("POL001_HDFC_ERGO_EQUICOVE", "HDFC_ERGO_EquiCover.pdf"),
+    "lic": ("POL002_LIC_JEEVAN_AROGYA", "LIC_Jeevan_Arogya.pdf"),
+    "niva": ("POL003_NIVA_BUPA_AROGYA_S", "Niva_Bupa_Arogya_Sanjeevani.pdf"),
+    "star": ("POL004_STAR_COMPREHENSIVE", "Star_Comprehensive.pdf"),
+}
+
+EXPECTED_COUNTS = {
+    "POL001_HDFC_ERGO_EQUICOVE": 325,
+    "POL002_LIC_JEEVAN_AROGYA": 149,
+    "POL003_NIVA_BUPA_AROGYA_S": 223,
+    "POL004_STAR_COMPREHENSIVE": 68,
+}
+
+# Known legal/page furniture that must never become clause content.
+FURNITURE_RE = [
+    re.compile(r"^page\s+\d+(?:\s+of\s+\d+)?$", re.I),
+    re.compile(r"^www\.[^\s]+$", re.I),
+    re.compile(r"^https?://", re.I),
+]
+
+
+def clean_clause_text(text: str, repeated_lines: set[str]) -> str:
+    """Remove exact repeated page furniture without rewriting policy wording."""
+    parts = re.split(r"(?<=[.;:])\s+", text.strip())
+    kept = []
+    for part in parts:
+        normalized = re.sub(r"\s+", " ", part).strip()
+        if not normalized:
+            continue
+        low = normalized.casefold()
+        if low in repeated_lines:
+            continue
+        if any(p.search(normalized) for p in FURNITURE_RE):
+            continue
+        kept.append(normalized)
+
+    text = " ".join(kept)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
+def repeated_page_lines(extracted: dict) -> set[str]:
+    """Find lines repeated on multiple pages, a strong header/footer signal."""
+    counts = Counter()
+    for page in extracted.get("pages", []):
+        seen_on_page = set()
+        for raw in (page.get("text") or "").splitlines():
+            line = re.sub(r"\s+", " ", raw).strip().casefold()
+            if len(line) >= 4:
+                seen_on_page.add(line)
+        for line in seen_on_page:
+            counts[line] += 1
+
+    page_count = max(1, len(extracted.get("pages", [])))
+    # Repeated on at least 20% of pages, but never remove very long legal text.
+    return {
+        line for line, count in counts.items()
+        if count >= 2 and count / page_count >= 0.20 and len(line) <= 140
+    }
+
+
+def identify_policy(pdf: Path) -> tuple[str, str]:
+    """Map the four frozen corpus PDFs using exact/strict filename rules.
+
+    Do not use a generic "arogya" match because both LIC and Niva Bupa
+    documents can contain Arogya in their filenames/content.
+    """
+    name = pdf.name.casefold()
+
+    if name == "equicover-health-cis-pw-108534555408.pdf":
+        return POLICIES["equicover"]
+
+    if name == "policy.pdf":
+        return POLICIES["lic"]
+
+    if name == "arogyasanjeevani-policydocument.pdf":
+        return POLICIES["niva"]
+
+    if name.startswith("brochure_star_comprehensive_insurance_policy"):
+        return POLICIES["star"]
+
+    raise ValueError(f"Unexpected PDF in corpus: {pdf.name}")
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--raw-dir", default="data/raw_pdfs")
-    parser.add_argument("--output-dir", default="data/dataset")
+    parser.add_argument("--output-dir", default="data/dataset_final_extraction")
     parser.add_argument("--ocr", action="store_true")
+    parser.add_argument("--allow-count-mismatch", action="store_true")
     args = parser.parse_args()
 
     raw_dir = ROOT / args.raw_dir
@@ -39,64 +121,123 @@ def main() -> None:
     out_dir.mkdir(parents=True, exist_ok=True)
 
     pdfs = sorted(raw_dir.glob("*.pdf"))
-    if not pdfs:
-        raise SystemExit(f"No PDFs found in {raw_dir}")
+    selected = []
+    for pdf in pdfs:
+        try:
+            identify_policy(pdf)
+            selected.append(pdf)
+        except ValueError:
+            # PMSBY and any other unrelated PDFs are intentionally excluded.
+            continue
+
+    if len(selected) != 4:
+        names = ", ".join(p.name for p in selected)
+        raise SystemExit(
+            f"Expected exactly 4 target PDFs, found {len(selected)}: {names}"
+        )
 
     all_rows = []
     policy_rows = []
 
-    for idx, pdf_path in enumerate(pdfs, start=1):
-        policy_id = slug_policy_id(pdf_path, idx)
+    for pdf_path in selected:
+        policy_id, canonical_name = identify_policy(pdf_path)
         extracted = extract_pdf(str(pdf_path), enable_ocr=args.ocr)
         clauses = extract_clauses(extracted, policy_id=policy_id)
 
+        repeated = repeated_page_lines(extracted)
+
+        cleaned = []
+        for clause in clauses:
+            c = dict(clause)
+            c["clause_text"] = clean_clause_text(
+                c.get("clause_text", ""), repeated
+            )
+            if not c["clause_text"]:
+                continue
+            cleaned.append(c)
+
+        # Re-number after cleanup, keeping deterministic IDs.
+        for i, c in enumerate(cleaned, start=1):
+            c["clause_id"] = f"{policy_id}_C{i:04d}"
+
         policy_json = out_dir / f"{policy_id}_clauses.json"
         policy_json.write_text(
-            json.dumps({
-                "policy_id": policy_id,
-                "source_file": pdf_path.name,
-                "page_count": len(extracted["pages"]),
-                "clauses": clauses,
-            }, ensure_ascii=False, indent=2),
+            json.dumps(
+                {
+                    "policy_id": policy_id,
+                    "source_file": canonical_name,
+                    "source_pdf": pdf_path.name,
+                    "page_count": len(extracted["pages"]),
+                    "clauses": cleaned,
+                },
+                ensure_ascii=False,
+                indent=2,
+            ),
             encoding="utf-8",
         )
 
-        for c in clauses:
-            all_rows.append({
-                "clause_id": c["clause_id"],
+        for c in cleaned:
+            all_rows.append(
+                {
+                    "clause_id": c["clause_id"],
+                    "policy_id": policy_id,
+                    "source_file": canonical_name,
+                    "page_start": c["page_start"],
+                    "page_end": c["page_end"],
+                    "section": c.get("section", ""),
+                    "subsection": c.get("subsection", ""),
+                    "marker": c.get("marker", ""),
+                    "clause_text": c["clause_text"],
+                    "category": "",
+                }
+            )
+
+        policy_rows.append(
+            {
                 "policy_id": policy_id,
-                "source_file": pdf_path.name,
-                "page_start": c["page_start"],
-                "page_end": c["page_end"],
-                "section": c.get("section", ""),
-                "subsection": c.get("subsection", ""),
-                "marker": c.get("marker", ""),
-                "clause_text": c["clause_text"],
-                "category": "",
-            })
+                "source_file": canonical_name,
+                "page_count": len(extracted["pages"]),
+                "clause_count": len(cleaned),
+            }
+        )
+        print(
+            f"{pdf_path.name}: {len(cleaned)} clauses -> {policy_id} "
+            f"(expected {EXPECTED_COUNTS[policy_id]})"
+        )
 
-        policy_rows.append({
-            "policy_id": policy_id,
-            "source_file": pdf_path.name,
-            "page_count": len(extracted["pages"]),
-            "clause_count": len(clauses),
-        })
-        print(f"{pdf_path.name}: {len(clauses)} clauses -> {policy_id}")
+    all_rows.sort(key=lambda r: (r["policy_id"], int(r["clause_id"].split("_C")[-1])))
 
-    fieldnames = list(all_rows[0].keys())
-    with (out_dir / "all_clauses_annotation.csv").open("w", newline="", encoding="utf-8-sig") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
+    fields = list(all_rows[0])
+    with (out_dir / "all_clauses_annotation.csv").open(
+        "w", newline="", encoding="utf-8-sig"
+    ) as f:
+        writer = csv.DictWriter(f, fieldnames=fields)
         writer.writeheader()
         writer.writerows(all_rows)
 
-    with (out_dir / "policies.csv").open("w", newline="", encoding="utf-8-sig") as f:
-        writer = csv.DictWriter(f, fieldnames=policy_rows[0].keys())
+    with (out_dir / "policies.csv").open(
+        "w", newline="", encoding="utf-8-sig"
+    ) as f:
+        writer = csv.DictWriter(f, fieldnames=policy_rows[0])
         writer.writeheader()
         writer.writerows(policy_rows)
 
-    print(f"\nTotal policies: {len(policy_rows)}")
-    print(f"Total clauses:  {len(all_rows)}")
-    print(f"Annotation CSV: {out_dir / 'all_clauses_annotation.csv'}")
+    mismatches = [
+        f"{r['policy_id']}: {r['clause_count']} != {EXPECTED_COUNTS[r['policy_id']]}"
+        for r in policy_rows
+        if r["clause_count"] != EXPECTED_COUNTS[r["policy_id"]]
+    ]
+
+    print(f"\nPolicies: {len(policy_rows)}")
+    print(f"Total clauses: {len(all_rows)}")
+    if mismatches:
+        print("\nCOUNT MISMATCH:")
+        for item in mismatches:
+            print("  " + item)
+        if not args.allow_count_mismatch:
+            raise SystemExit(2)
+    else:
+        print("Expected counts: PASS")
 
 
 if __name__ == "__main__":
