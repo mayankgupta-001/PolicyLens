@@ -1,123 +1,144 @@
 # PolicyLens
 
-## Part 1 — Policy Understanding & Structuring
+## Part 1 — Policy Document Processing & Knowledge Preparation
 
-The first module converts a health-insurance PDF into a structured, clause-level representation while preserving source page and section information.
+Part 1 converts the selected health-insurance policy PDFs into a structured, clause-level dataset while preserving source page, section, subsection, and clause-marker information.
 
-### Pipeline
+### Final Part 1 pipeline
 
 ```text
-PDF
- ↓
-Visual text extraction / cleaning
- ↓
-Section + subsection detection
- ↓
-Clause marker detection and continuation merging
- ↓
-Structured clause JSON
- ↓
-Manual annotation
- ↓
-DeBERTa-v3-base clause classification (next module)
+Health-insurance PDF
+        ↓
+Page-level text extraction
+        ↓
+OCR fallback when required
+        ↓
+Section / subsection detection
+        ↓
+Clause segmentation
+        ↓
+Page + source metadata preservation
+        ↓
+Light deterministic cleaning
+        ↓
+Automatic / pseudo annotation
+        ↓
+Structural validation
+        ↓
+765-clause frozen dataset
+        ↓
+Part 2: DeBERTa-v3-base classification
 ```
 
-### Current files
+### Frozen corpus
 
-- `src/ingestion/pdf_extractor.py` — page-level PDF extraction with optional OCR fallback.
-- `src/ingestion/table_extractor.py` — table detection.
-- `src/ingestion/text_cleaner.py` — Unicode and extraction cleanup.
-- `src/ingestion/clause_extractor.py` — deterministic clause segmentation. It does **not** classify clauses with AI.
-- `scripts/process_policy.py` — PDF text + table extraction.
-- `scripts/extract_clauses.py` — clause extraction from a PDF or extracted JSON.
-- `scripts/validate_clauses.py` — basic structural validation.
+The current experiment uses four policy documents:
+
+| Policy | Clauses |
+|---|---:|
+| `POL001_HDFC_ERGO_EQUICOVE` | 325 |
+| `POL002_LIC_JEEVAN_AROGYA` | 149 |
+| `POL003_NIVA_BUPA_AROGYA_S` | 223 |
+| `POL004_STAR_COMPREHENSIVE` | 68 |
+| **Total** | **765** |
+
+The dataset is automatically/pseudo-labeled. The labels are preliminary annotations used for model development; they are **not presented as human-verified insurance ground truth**.
+
+### Final Part 1 output
+
+`data/dataset_final_extraction/` contains:
+
+- `all_clauses_annotation.csv` — consolidated 765-clause dataset.
+- `POL001_HDFC_ERGO_EQUICOVE_clauses.json`
+- `POL002_LIC_JEEVAN_AROGYA_clauses.json`
+- `POL003_NIVA_BUPA_AROGYA_S_clauses.json`
+- `POL004_STAR_COMPREHENSIVE_clauses.json`
+- `policies.csv` — policy-level metadata and clause counts.
 
 ### Clause schema
 
 ```json
 {
-  "clause_id": "POL001_C0001",
-  "policy_id": "POL001",
-  "page_start": 16,
-  "page_end": 16,
-  "section": "14. Waiting Period",
-  "subsection": "Specific waiting period",
-  "marker": "i.",
+  "clause_id": "POL001_HDFC_ERGO_EQUICOVE_C0001",
+  "policy_id": "POL001_HDFC_ERGO_EQUICOVE",
+  "page_start": 1,
+  "page_end": 1,
+  "section": "1. Preamble",
+  "subsection": "",
+  "marker": "",
   "clause_text": "...",
-  "source_lines": ["..."],
-  "category": null
+  "category": ""
 }
 ```
 
-`category` is intentionally blank. The next stage will assign the PolicyLens taxonomy label using the annotated dataset and DeBERTa-v3-base.
+`category` is the preliminary taxonomy field used by the next stage. The five PolicyLens categories are:
 
-### Run
-
-```bash
-pip install -r requirements.txt
-
-# 1. Extract PDF text and tables
-python scripts/process_policy.py data/raw_pdfs/policy.pdf
-
-# 2. Segment the PDF into clauses
-python scripts/extract_clauses.py data/raw_pdfs/policy.pdf --policy-id POL001
-
-# 3. Validate the generated clauses
-python scripts/validate_clauses.py
-```
-
-You can also extract clauses from an existing extraction JSON:
-
-```bash
-python scripts/extract_clauses.py data/extracted/policy_extracted.json
-```
-
-### Important design choice
-
-Clause extraction is currently rule/structure based. The system uses headings, list markers, page boundaries, and continuation lines. This is deliberate: clause segmentation should be inspectable before supervised classification is trained.
-
-OCR is available through `--ocr` / `--ocr-all` for difficult PDFs, but OCR can sometimes change heading recognition. The default native/layout extraction should therefore be inspected before using OCR output for annotation.
-
-## Annotation stage
-
-The clause extractor produces `data/clauses/policy_clauses_annotation.csv` with a blank `category` field. Use:
-
-```bash
-python scripts/annotate_clauses.py data/clauses/policy_clauses_annotation.csv
-```
-
-Labels:
 - Coverage
 - Exclusion
 - Waiting Period
 - Condition
 - Claim Requirement
 
-`data/clauses/policy_clauses_seed.csv` contains only high-confidence automatic suggestions. These are suggestions for annotation review, not ground truth.
+### Main Part 1 code
 
-See `annotation_guidelines.md` before labeling. The final classifier dataset should include clauses from multiple health-insurance policies and should preferably be split by policy/document to avoid train-test leakage.
+- `src/ingestion/pdf_extractor.py` — page-level PDF extraction with optional OCR fallback.
+- `src/ingestion/text_cleaner.py` — extraction/text normalization utilities.
+- `src/ingestion/clause_extractor.py` — deterministic, structure-aware clause segmentation. It does not perform AI classification.
+- `src/ingestion/table_extractor.py` — table detection/extraction utility.
+- `scripts/build_policy_dataset.py` — reproducible builder for the frozen four-policy corpus.
+- `scripts/process_policy.py` — standalone PDF text/table extraction utility.
+- `scripts/extract_clauses.py` — standalone clause extraction utility for development/debugging.
+- `scripts/validate_clauses.py` — validation of the frozen Part 1 dataset.
 
-## Part 1.5 — Multi-policy dataset preparation
+### Build the frozen dataset
 
-The classifier must not be trained on only one policy. Put additional official health-insurance policy PDFs in `data/raw_pdfs/` and run:
+The final builder accepts only the four configured source PDFs and intentionally ignores unrelated PDFs such as PMSBY.
 
 ```bash
 python scripts/build_policy_dataset.py
 ```
 
-This creates one clause JSON per policy plus:
+The builder checks the expected clause counts:
 
-- `data/dataset/all_clauses_annotation.csv`
-- `data/dataset/policies.csv`
-
-After manual annotation, split by **policy**, not by random clause, to reduce leakage:
-
-```bash
-python scripts/split_by_policy.py
+```text
+POL001_HDFC_ERGO_EQUICOVE: 325
+POL002_LIC_JEEVAN_AROGYA: 149
+POL003_NIVA_BUPA_AROGYA_S: 223
+POL004_STAR_COMPREHENSIVE: 68
 ```
 
-A split requires at least 3 different policies. The final project should use more policies than this minimum.
+### Validate the frozen dataset
 
-## Suggested policy sources for dataset expansion
+```bash
+python scripts/validate_clauses.py
+```
 
-Use current policy-wording PDFs from official insurer websites. Examples include HDFC ERGO's health policy-wordings page and ICICI Lombard's Complete Health Insurance policy wording. These are source candidates for adding independent policies to the training corpus; the exact product/version should be recorded with the PDF.
+The validator checks:
+
+- total clause count
+- per-policy counts
+- duplicate clause IDs
+- required fields
+- empty clause text
+- page ranges
+- obvious page/header/footer furniture contamination
+- unknown policy IDs
+
+Clauses shorter than 20 characters are reported as a warning rather than automatically deleted because short policy statements can be legitimate.
+
+### Design choice
+
+Clause extraction is intentionally deterministic and inspectable. The extraction stage uses document structure, headings, clause markers, page boundaries, and continuation lines. AI classification is kept separate and belongs to Part 2.
+
+OCR is available for difficult PDFs. Native/layout extraction remains the default because OCR can alter text and heading recognition.
+
+## Repository scope
+
+This repository is being developed in four logical parts:
+
+1. **Part 1 — Policy Document Processing & Knowledge Preparation**
+2. **Part 2 — Clause Intelligence & Classification (DeBERTa-v3-base)**
+3. **Part 3 — Retrieval Intelligence & RAG (BGE-M3 / FAISS)**
+4. **Part 4 — Answer Generation, Verification & Evaluation**
+
+Part 1 is currently frozen at 765 clauses and has passed structural validation. The next stage uses this frozen dataset rather than regenerating the policy extraction.
